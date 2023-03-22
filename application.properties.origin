@@ -1,0 +1,4 @@
+local.datasource.username=
+local.datasource.password=
+local.datasource.url=
+local.server.port=

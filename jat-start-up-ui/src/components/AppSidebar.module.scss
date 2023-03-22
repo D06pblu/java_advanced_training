@@ -1,0 +1,141 @@
+.jatFrame {
+    position: absolute;
+    width: 20%;
+    height: 100%;
+    background: #0079B5;
+    box-shadow: 0px 10px 50px rgba(76, 90, 117, 0.05);
+    border-radius: 0px 20px 20px 0px;
+}
+
+.jatCaption {
+    position: absolute;
+    left: 16%;
+    right: 55.6%;
+    top: 5%;
+    bottom: 88.43%;
+    font-family: 'Muller';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 120%;
+    /* identical to box height, or 46px */
+    color: #FFFFFF;
+}
+
+.activeFrame {
+    position: absolute;
+    width: 90%;
+    height: 7%;
+    left: 5%;
+    top: 15%;
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 10px;
+    color: #FFFFFF;
+}
+
+.inactiveFrame {
+    position: absolute;
+    width: 90%;
+    height: 7%;
+    left: 5%;
+    top: 15%;
+    border-radius: 10px;
+    color: rgba(255, 255, 255, 0.8);
+}
+    
+.menuItem {
+    position: absolute;
+    width: 20%;
+    height: 20%;
+    left: 5%;
+    top: 20%;
+
+    .logoItem {
+        position: absolute;
+        left: 30%;
+        top: 60%;
+        white-space: nowrap;
+        color: #FFFFFF;
+    }
+        
+    .activeMenuItemList {
+        position: absolute;
+        left: 80%;
+        top: 60%;
+        white-space: nowrap;
+        font-family: 'Muller';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 120%;
+        color: #FFFFFF;
+    }
+
+    .inactiveMenuItemList {
+        position: absolute;
+        left: 80%;
+        top: 60%;
+        white-space: nowrap;
+        font-family: 'Muller';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 120%;
+
+        color: rgba(255, 255, 255, 0.8);
+
+        :hover {
+            color: #FFFFFF;
+        }
+    }
+}
+
+.locationItem {
+    position: absolute;
+    width: 95px;
+    height: 54px;
+    left: 41px;
+    top: 321px;
+    
+    .countryCaption {
+    
+        position: absolute;
+        left: 16.4%;
+        right: 59.2%;
+        top: 45.86%;
+        bottom: 51.43%;
+        
+        font-family: 'Muller';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 120%;
+        /* or 19px */
+        
+        color: #FFFFFF;
+    }
+
+    .locationData {
+        position: absolute;
+        white-space: nowrap;
+        width: 80%;
+        height: 25px;
+        left: 15%;
+        top: 100%;
+        background-color: none;
+    }
+
+    .locationButton {
+        font-family: 'Muller';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 120%;
+        /* or 19px */
+        white-space: nowrap;
+        color: rgba(255, 255, 255, 0.8);
+        background-color: #0079B5;
+        border-color: #0079B5;
+        fill: rgba(255, 255, 255, 0.8);
+    }
+}

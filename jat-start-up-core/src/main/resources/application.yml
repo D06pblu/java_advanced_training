@@ -1,0 +1,15 @@
+server:
+  port: ${local.server.port}
+spring:
+  datasource:
+    url: ${local.datasource.url}
+    username: ${local.datasource.username}
+    password: ${local.datasource.password}
+  jpa:
+    show-sql: true
+
+logging:
+  level:
+    org:
+      hibernate:
+        SQL=DEBUG:

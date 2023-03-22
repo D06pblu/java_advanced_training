@@ -1,0 +1,17 @@
+**/target/
+*.iml
+.idea
+/logs
+*.log
+.DS_Store
+application.properties
+**/.settings
+.directory
+/properties.properties
+**/jat-start-up-ui/node/
+**/jat-start-up-ui/node_modules/
+**/jat-start-up-ui/package-lock.json
+**/jat-start-up-ui/npm-debug.log
+**/jat-start-up-ui/config/proxy.config.js
+**/jat-start-up-ui/build
+test.http

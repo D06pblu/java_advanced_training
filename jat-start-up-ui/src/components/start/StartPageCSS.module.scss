@@ -1,0 +1,52 @@
+
+.userInfo {
+  margin: 2%;
+  min-width: max-content;
+}
+
+.hasSpaceAfter {
+  min-width: max-content;
+  margin: 1% 2% 1% 1%;
+}
+
+.topic {
+  margin: 1%;
+  min-width: 60px;
+  //flex: border-box;
+}
+
+.marginLeft5Percent {
+  margin-left: 55px;
+}
+
+.menteesList {
+  margin-top: 3%;
+  width: 30%;
+  height: 50%;
+}
+
+.expertsList {
+  margin-top: 3%;
+  width: 30%;
+  height: 50%;
+}
+
+.listItem {
+  margin-left: 5%;
+  margin-top: 1%;
+}
+
+.inlineThemes {
+  display: inline;
+  word-wrap: break-word;
+  width: 330px;
+}
+
+.themeItem {
+  min-width: max-content;
+  float: left;
+}
+
+.calendar {
+  min-height: 320px;
+}
